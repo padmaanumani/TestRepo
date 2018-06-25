@@ -5,7 +5,7 @@ pipeline{
     steps{
     	echo 'This is also a test'
       bat 'mvn --version'
-      bat 'mvn package'
+      bat 'mvn clean package'
     }
        
     }
