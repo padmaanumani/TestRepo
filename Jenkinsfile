@@ -5,7 +5,7 @@ pipeline{
     steps{
     	echo 'This is also a test'
       bat 'mvn --version'
-      bat 'mvn clean package'
+      sh '${MAVEN_HOME}/bin/mvn clean package'
     }
        
     }
